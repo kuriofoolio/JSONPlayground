@@ -3,7 +3,7 @@ The codebase provides some interactions with .json and .jsonl file formats
 
 # Setup
 ## Virtual environment
-Create a virtual environment using conda 
+Create a virtual environment using conda <br>
 `conda create --name <your virtual environment> python=<your preferred python version>`
 
 Activate the environment
