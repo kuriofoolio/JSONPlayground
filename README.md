@@ -1,13 +1,21 @@
 # JSONPlayground
 The codebase provides some interactions with .json and .jsonl file formats
 
-# Setting up the environment
-## json and jsonlines importation 
+# Setup
+## Virtual environment
+Create a virtual environment using conda 
+`conda create --name <your virtual environment> python=<your preferred python version>`
+
+Activate the environment
+`conda activate <your virtual environment>`
+
+## Module importation
 The most important modules to import are **json** and **jsonlines**
 -  `import json`
 -  `import jsonlines`
 
-The other modules included the project can be imported at leisure
+The other modules included the project can be imported/installed at leisure. 
+Ensure you're within your virtual environment when installing modules. 
 
 # Basic file operations
 ## Reading a file 
