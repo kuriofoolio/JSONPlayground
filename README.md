@@ -40,13 +40,13 @@ Visit [Wordnik](https://developer.wordnik.com) to learn more.
 * Open *main.ipynb*  and navigate to **Sample project**
 
 * Reading the json file. 
- ![image](img1.png)
+ ![image](test/img1.png)
 
 * Converting the dict values to type list
- ![image](img2.png)
+ ![image](test/img2.png)
 
 * Retrieving word etymologies from the API
- ![image](img3.png)
+ ![image](test/img3.png)
 
 * Append the etymologies to your json file
 ```
