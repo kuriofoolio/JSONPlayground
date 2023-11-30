@@ -30,3 +30,29 @@ with jsonlines.open(f'{PATH}/{file_name}.jsonl') as reader:\n",
 with jsonlines.open(f'{PATH}/{file_name}.jsonl', mode='a') as writer:\n",
     "        ...",
 ```
+
+# Sample project: Working with word etymologies
+* Dataset: /asian_data/asian_words.json
+
+* Requirements: A Wordnik API Key.
+Visit [Wordnik](https://developer.wordnik.com) to learn more.
+
+* Open *main.ipynb*  and navigate to **Sample project**
+
+* Reading the json file. 
+ ![image](img1.png)
+
+* Converting the dict values to type list
+ ![image](img2.png)
+
+* Retrieving word etymologies from the API
+ ![image](img3.png)
+
+* Append the etymologies to your json file
+```
+write_to_json(PATH,'asian_words-test',data)
+```
+
+
+
+
